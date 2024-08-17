@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional CSS for hiding and showing sections */
+        .section {
+            display: none; /* Hide all sections by default */
+        }
+        .section.active {
+            display: block; /* Show the active section */
+        }
+    </style>
+</head>
+<body>
+  <nav id="navmenu">
+        <a href="#" data-section="home">Home</a>
+        <a href="#" data-section="about">About</a>
+        <a href="#" data-section="services">Services</a>
+        <a href="#" data-section="contact">Contact</a>
+    </nav>
+    <header>
+      <img id="logoimg" src="https://pricelessgemtravel.com/wp-content/uploads/2019/08/pricelessgemtravel_color.png">
+    </header>
+
+    
+
+    <div class="container">
+        <!-- Home Section -->
+        <div id="home" class="section active">
+            <h2>Home</h2>
+          <img id="homeimg"src="https://pricelessgemtravel.com/wp-content/uploads/2024/04/img_5464.jpg">
+            <p>At Priceless Gem Travel, we’re dedicated to the extraordinary, drawing inspiration from the rare and precious essence of a gem. Our curated journeys go beyond the ordinary, inviting you to explore experiences that are truly exceptional.</p>
+
+<p>Embark on adventures where each moment is a discovery, filled with the richness of the unknown. With Priceless Gem Travel, you’re not just planning a trip; you’re unlocking a vault of unforgettable memories, each one as valuable as a rare treasure.</p>
+
+<p>Uncover hidden treasures, delve into off-the-beaten-path destinations, and savor moments with people you love. Let us guide you in uncovering the world’s hidden gems, tailoring journeys that reflect your unique spirit and style so that you will return home transformed. </p>
+        </div>
+
+        <!-- About Section -->
+        <div id="about" class="section">
+            <h2>About</h2>
+            <p>This is the about section. Provide information about yourself or your website here.</p>
+        </div>
+
+        <!-- Services Section -->
+        <div id="services" class="section">
+            <h2>Services</h2>
+            <p>This is the services section. Describe the services you offer or what you do here.</p>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>This is the contact section. Provide your contact information or a contact form here.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Priceless Gem Travel LLC. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
